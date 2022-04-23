@@ -27,3 +27,10 @@ for i, message in enumerate(data_df["msg"]):
     enter_button = navegador.find_element(By.XPATH, "//div[contains(@title, 'Mensagem')]")
     enter_button.send_keys(Keys.ENTER)
     time.sleep(5)
+
+menu_button = navegador.find_element(By.XPATH, "//div[contains(@title, 'Mais opções')]")
+time.sleep(2)
+menu_button.click()
+disconnect_button = navegador.find_element(By.XPATH, "//div[contains(@aria-label, 'Desconectar')]")
+time.sleep(2)
+disconnect_button.click()
