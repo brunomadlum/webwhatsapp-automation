@@ -6,4 +6,4 @@
 
 -In the excel file you should fill the b column with the number in country code + state code + number, for example: "5521999999999"
 
--Your browser's .exe file must be in the code folder, recommended to use chrome
+-For this automation was used the chrome driver
